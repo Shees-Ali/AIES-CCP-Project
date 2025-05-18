@@ -21,4 +21,4 @@ Write-Host "Installing project in development mode..."
 pip install -e .
 
 Write-Host "Setup complete!"
-Write-Host "You can now run the demo with: python -m sample_agent.demo"
+Write-Host "You can now run the demo with: python -m project_manager_agent.demo"

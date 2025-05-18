@@ -21,4 +21,4 @@ echo Installing project in development mode...
 pip install -e .
 
 echo Setup complete!
-echo You can now run the demo with: python -m sample_agent.demo
+echo You can now run the demo with: python -m project_manager_agent.demo

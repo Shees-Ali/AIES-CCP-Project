@@ -1,6 +1,6 @@
-# Sample Agent
+# Project Manager Agent
 
-This is a sample agent project built with LangGraph and LangChain.
+This is a Project Manager Agent project built with LangGraph and LangChain.
 
 ## Setup Instructions
 
@@ -59,13 +59,13 @@ GEMINI_KEY=your_gemini_api_key
 After activating the virtual environment:
 ```bash
 # Run the demo server
-python -m sample_agent.demo
+uvicorn project_manager_agent.demo:app
 ```
 
 The server will start on http://0.0.0.0:8000 with hot reload enabled.
 
 ## Project Structure
 
-- `sample_agent/agent.py`: Main agent code with graph, state, tools, and nodes definition
-- `sample_agent/demo.py`: FastAPI server that hosts the agent
+- `project_manager_agent/agent.py`: Main agent code with graph, state, tools, and nodes definition
+- `project_manager_agent/demo.py`: FastAPI server that hosts the agent
 - `requirements.txt`: Project dependencies

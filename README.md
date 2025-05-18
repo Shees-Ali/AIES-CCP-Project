@@ -69,7 +69,7 @@ CLICKUP_TEAM_ID=... # Your ClickUp Team ID
 
 4. Run the demo:
 ```sh
-uvicorn sample_agent.demo:app
+uvicorn project_manager_agent.demo:app
 ```
 
 ### UI Setup
@@ -119,6 +119,6 @@ For development and debugging, you can use LangGraph studio:
 
 Common issues:
 1. Make sure no other application is running on port 8000
-2. If you have connectivity issues, try changing the host in `sample_agent/demo.py` from `0.0.0.0` to `127.0.0.1` or `localhost`
+2. If you have connectivity issues, try changing the host in `project_manager_agent/demo.py` from `0.0.0.0` to `127.0.0.1` or `localhost`
 3. Ensure all required API keys are set in your `.env` files
 4. Check that your ClickUp API key has the necessary permissions
