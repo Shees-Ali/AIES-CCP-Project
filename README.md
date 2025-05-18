@@ -3,7 +3,6 @@
 This project provides an AI-powered project management assistant that integrates with ClickUp to help manage tasks, lists, and workspaces. It demonstrates building an intelligent agent system with LangGraph that can interface with external APIs.
 
 ## Demo Video
-## Demo Video
 [![Project Management Co-Agent Demo](https://img.youtube.com/vi/yIDtKiOGkoY/0.jpg)](https://youtu.be/yIDtKiOGkoY)
 
 *Click the image above to watch the demo video on YouTube*
